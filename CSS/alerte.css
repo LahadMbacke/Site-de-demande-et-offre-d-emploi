@@ -1,0 +1,37 @@
+#alerte
+{
+	margin-top: 200px;
+
+}
+.alt
+{
+	margin-top: 4px;
+	height: 50px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+#alerte
+{
+	/*margin-top: -2px;*/
+	/*margin: auto;*/
+}
+#mesAletes
+{
+	border: 1px solid black;
+	width: 70%;
+	height: 500px;
+	margin: auto;
+}
+#entet{
+	margin-top: -100px;
+}
+#form{
+	margin-left: 110px;
+	/*margin-top: -100px;*/
+
+}
+#Cralerte{
+	margin-left: -220px;
+	 margin-bottom: -100px;
+	 border-radius: 20px;
+}

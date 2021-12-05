@@ -1,0 +1,24 @@
+#lag
+{ 
+	max-width:40%;
+	margin-left: -1px;
+	margin-top: 0px;
+/*	margin-top: 0px;*/
+	height: 525px;
+	overflow-y : scroll;
+}
+
+#droite
+{
+	margin-left: 39%;
+	margin-top: -540px;
+	/*border: 1px solid black;*/
+	width: 62%;
+	height: 595px;
+	/*background-color: yellow;*/
+	overflow-y : scroll;
+}
+section
+{
+	background-color: white;
+}

@@ -1,0 +1,28 @@
+#contenu
+{
+	/*background-color: gray;*/
+}
+.mycontainer
+{
+	margin: auto;
+	border: 1px solid black;
+	height: 650px;
+	/*text-align: center;*/
+	width: 90%;
+	padding-left: 23%;
+	padding-top: 5%;
+}
+
+/*.cv
+{
+	margin-top: 30px;
+}*/
+.depotcv{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.postuler
+{
+	
+	margin-top: 30px;
+}

@@ -1,0 +1,28 @@
+
+        .content {
+        padding: 16px;
+        width: 75%;
+        margin: auto;
+        background-color: gray;
+        }
+
+        .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+        .sticky + .content {
+        padding-top: 60px;
+        }
+              .Inscription
+              {
+                     border: 0px solid black;
+                     width: 70%;
+                     margin: auto;
+                     padding: 50px;
+              }
+              label{
+                     margin-top: 30px;
+              }
+

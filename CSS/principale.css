@@ -1,0 +1,417 @@
+body {
+        margin: 0;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+        background-color: #f1f1f1;
+        padding: 10px;
+        }
+
+        #navbar {
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        .droite {
+            float: right;
+            display: inline-block;
+        }
+        .droit {
+            float: right;
+            display: inline-block;
+        margin-top: 5px;
+        }
+        .droite a{
+            text-decoration: none;
+        }
+        h1{
+        display: inline-block;
+        }
+        
+
+        #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+        #navbar a.active {
+        background-color: #04AA6D;
+        color: white;
+        }
+
+        .content {
+        padding: 16px;
+        }
+
+        .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+        .sticky + .content {
+        padding-top: 60px;
+        }
+        a {
+            text-decoration: none
+        }
+
+        /*///////////////////////////ANNONCES PAR SECTEUR////////////////////////*/
+.quickSearch
+{
+    /*background-color:  #650065;*/
+    margin-bottom: 20px;
+}
+
+
+.box{
+
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.box input{
+       background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
+
+/*.box > i {
+
+    font-size: 20px;
+
+    color: #777;
+
+}*/
+h2
+{
+    font-weight: 200;
+}
+.quickSearch li
+{
+   display: inline-block;
+}
+
+.box > input{
+      background-color: white;
+    /*flex: 1;*/
+    height: 40px;
+    border: none;
+    /*outline: none;*/
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.HeightInput
+{
+    height: 75px;
+    border-radius: 5px;
+    width: 10%;
+    margin-left:100px;
+}
+/*#btns
+{
+   height: 75px; 
+   margin-left:-33px;
+   width: 10%;
+}*/
+
+/*/////////////////////////////////////VILLE//////////////////////////////////////////////////*/
+#conteneur
+{
+    display: flex;
+     /*border: 0px solid black;*/
+     /*background-color: white;*/
+    flex-wrap: wrap;
+    /*margin: auto;*/
+    padding-left: 100px;
+    text-align: center;
+
+}
+
+
+.dakar{
+    background-image: url("../photoA/dakar.jpg");
+    /*background-color: gray;*/
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.thies
+{
+     background-image: url("../photoA/thies.jpg");
+    background-color: yellow;
+    border: 1px solid black;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.saint-louis
+{
+     background-image: url("../photoA/saint-louis.jpg");
+    background-color: gray;
+    border: 1px solid green;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+     margin-bottom: 20px;
+}
+.diourbel
+{
+     background-image: url("../photoA/diourbel.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.touba
+{
+     background-image: url("../photoA/touba.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.saly
+{
+     background-image: url("../photoA/saly.jpg");
+    background-color: brown;
+    border: 1px solid black;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.tambacounda
+{
+     background-image: url("../photoA/tamba.jpg");
+    background-color: brown;
+    border: 1px solid black;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+
+
+.kedougou
+{
+     background-image: url("../photoA/kedougou.jpg");
+    background-color: brown;
+    border: 1px solid black;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.louga
+{
+     background-image: url("../photoA/louga.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.ziguinchor
+{
+     background-image: url("../photoA/zic.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.kaolack
+{
+     background-image: url("../photoA/kaolack.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+     margin-bottom: 20px;
+}
+.matam
+{
+     background-image: url("../photoA/matam.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.pikine
+{
+     background-image: url("../photoA/pikine.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.kolda
+{
+     background-image: url("../photoA/kolda.jpg");
+    background-color: brown;
+    border: 1px solid black;
+     width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.fatick
+{
+     background-image: url("../photoA/fatick.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.sedhiou
+{
+     background-image: url("../photoA/sedhiou.jpg");
+    background-color: brown;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+h3
+{
+   position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+
+
+.depot_cv
+{
+    background-image: url("../backg/jobb.jpg") ;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    border:  black;
+    height: 500px;
+}
+.inf_cv
+{
+    text-align: center;
+    padding-top: 200px;
+    /*color: #4ca1af;*/
+    color: grey;
+}
+
+/*#img_cv
+{
+    border: 0px white;
+    margin-left: 100px;
+    margin-top: 30px;
+    width:600px;
+}*/
+
+
+/*//////////////////////////////////SEARCH?????????????????????????????????????????????*/
+.Sul{  
+    background-color:#eee;  
+    cursor:pointer; 
+    border-radius: 10px;
+}  
+.Sli{  
+    padding:12px; 
+    margin: auto; 
+    /*margin-right: -220px; */
+}  
+/*.metier
+{
+   width:500px;
+}*/
+
+#metierList
+{
+   padding-left: 100px;
+   width: 118%;
+}
+
+#lieuList
+{
+   padding-left: 100px;
+   width: 118%;
+}
+
+
+.chrch
+{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

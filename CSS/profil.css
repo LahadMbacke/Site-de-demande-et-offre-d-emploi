@@ -1,0 +1,167 @@
+/* Style the form */
+
+/*//////////POPUP///////*/
+.container
+{
+  margin-bottom: 20px;
+  width: 65%;
+  margin-left: -30px;
+}
+
+#regForm {
+  background-color: white;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+/*.tab {
+  display: none;
+}
+*/
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+
+/***********************************************************************************************************************/
+
+.SectioPro
+{
+  /*width: 55%;*/
+      background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
+
+.seccc
+{
+  width: 75%;
+  margin: auto;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+#adress
+{
+    /*border: 1px solid black;*/
+   display: inline-block;
+   /*background-color: gray;*/
+   height: 100px;
+   width: 40%;
+   float: right;
+   margin-right: -110px;
+}
+
+#coor{
+  /*border: 1px solid black;*/
+   display: inline-block;
+   /*background-color: yellow;*/
+   height: 120px;
+   width: 40%;
+
+}
+
+#Adres_Coor
+{
+
+  margin: 2px;
+  /*text-align: center;*/
+}
+
+
+/*********************************************************************************************************/
+
+#photo_cv
+{
+  /*border: 1px solid black;*/
+  width: 75%;
+  /*background-color: black;*/
+  /*float: right;*/
+  /*margin-right: -100px;*/
+  height: 350px;
+}
+
+#cercle
+{
+   text-align: center;
+  margin: auto;
+}
+
+.btn_photo
+{
+    /*text-align: center;*/
+    /*margin: auto;*/
+    width: 180px;
+    height: 180px;
+    border-radius: 160px;
+    background: grey;
+}
+
+/*///////////////////////////////////////////////////////////////CV//////////////////////////////////////////*/
+#cv{
+  /*background-color: yellow;*/
+  /*float: right;*/
+  /*margin-right: 475px;*/
+  /*border: 1px solid black;*/
+  width: 45%;
+  /*height: 200px;*/
+  /*margin-top: px;*/
+  
+}
+.bi-file-earmark-arrow-up
+{
+   text-align: center;
+  font-size: 90px;
+  /*margin-right: 300px;*/
+  margin-right: -10px;
+  /*margin: auto;*/
+}
+.h5CV
+{
+  text-align: center;
+  background-color: grey;
+  height: 30px;
+  border: 0px solid black;
+  width: 100%;
+  padding: 0px;
+}
+
+
+section{
+  /*background-color: white;*/
+      /*background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);*/
+
+}

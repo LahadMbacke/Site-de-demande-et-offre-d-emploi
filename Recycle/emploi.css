@@ -1,0 +1,192 @@
+
+
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+/*FORMULAIRE*/
+.connexion
+{
+	border: 0px solid black;
+	width: 60%;
+	margin: auto;
+	height: 400px;
+	padding: 50px;
+	background-color:#bdc3c7;
+	text-align: ;
+}
+.Inscription
+{
+	border: 0px solid black;
+	width: 60%;
+	margin: auto;
+	height: 920px;
+	padding: 50px;
+	background-color:#bdc3c7;
+}
+.sex{
+    margin-top: -15px;
+}
+legend{
+    margin: auto;
+    text-align: center;
+}
+
+
+button
+{
+	/*text-align: center;*/
+	 margin-top: 20px;
+	/*margin: auto;*/
+	/*margin-left: "300px";*/
+}
+label{
+	margin-top: 30px;
+}
+
+
+
+/////////////////////////////////////////////////*CSS HEADER_NAVBAR  PRINCIPAL*////////////////////////////////////////////////////////////
+body{
+	margin: 0px;
+	color: white;
+}
+
+header{
+	background-color: #2f4f4f;
+}
+
+header nav{
+	padding: 30px 5% 0 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+header nav h1{
+	margin: 0px;
+	text-transform: uppercase;
+	color: white;
+}
+.gauch
+{
+	display: flex;
+	margin-left: -300PX;
+}
+.droite{
+	display: flex;
+	align-items: center;
+}
+ header nav .droite p{
+ 	margin:0 15px 0 0;
+ 	color: white;
+ }
+ header nav .droite a{
+ 	text-decoration: none;
+ }
+
+ header nav .gauch p{
+ 	margin:0 15px 0 0;
+ 	color: white;
+ }
+ header nav .gauch a{
+ 	text-decoration: none;
+ }
+
+ .presentation{
+ 	padding: 30px 5%;
+ 	margin-top: 100px;
+ }
+
+
+ .presentation .first_present h2{
+ 	margin: 0px;
+ 	text-align: center;
+ 	color: white;
+ }
+
+
+
+
+ /*BARRE DE RECEHERCHE*/
+ .search {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px
+}
+
+.search-1 {
+    position: relative;
+    width: 100%
+}
+.search-1 input {
+    height: 45px;
+    border: none;
+    width: 100%;
+    padding-left: 34px;
+    padding-right: 10px;
+    border-right: 2px solid #eee
+}
+.search-1 input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
+.search-1 i {
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    font-size: 24px;
+    color: #eee
+}
+
+
+.search-2 {
+    position: relative;
+    width: 100%
+}
+
+.search-2 input {
+    height: 45px;
+    border: none;
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 100px
+}
+
+.search-2 input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: none
+}
+
+.search-2 i {
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    font-size: 24px;
+    color: #eee
+}
+
+.search-2 button {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    border: none;
+    height: 45px;
+    background-color:green;
+    color: #fff;
+    width: 90px;
+    border-radius: 4px
+}
+
+
+
+ .presentation .second_present h1{
+ 	margin: 0px;
+ 	font-size: 4vw;
+ 	width: 70%;
+ 	color: black;
+ }
